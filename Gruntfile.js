@@ -166,6 +166,12 @@ module.exports = function (grunt) {
           'build/index.html': 'source/index.html'
         }
       }
+    },
+    'gh-pages': {
+      options: {
+        base: 'build'
+      },
+      src: ['**']
     }
   });
 
@@ -177,6 +183,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-string-replace');
+  grunt.loadNpmTasks('grunt-gh-pages');
 
   grunt.registerTask('build', [
     'clean',
