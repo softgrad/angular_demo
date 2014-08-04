@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Irina Zhadanova",
+        "photo": "photo3.jpg",
+        "age": "29",
+        "info": "Photograph",
+        "sity": "Moscow, Russia",
+        "interests": [
+            "art",
+            "nature",
+            "fashion"
+        ]
+    },
+    {
+        "name": "Olga Karanova",
+        "photo": "photo1.jpg",
+        "age": "27",
+        "info": "Artist",
+        "sity": "Moscow, Russia",
+        "interests": [
+            "sex",
+            "drugs",
+            "rock & roll"
+        ]
+    },
+    {
+        "name": "Tatiana Smith",
+        "photo": "photo2.jpg",
+        "age": "25",
+        "info": "Actress",
+        "sity": "Moscow, Russia",
+        "interests": [
+            "photo",
+            "travel",
+            "adventures"
+        ]
+    }
+]

@@ -1,0 +1,19 @@
+<aside class="navigation sans-serif" ng-controller="NavigationController">
+  <nav>
+    <ul class="list-unstyled">
+      <li ng-if="currentUser">
+        <span ng-click="setPathTo('/')">Feed</span>
+      </li>
+      <li ng-if="currentUser">
+        <span ng-click="setPathTo('/profile')">Profile</span>
+      </li>
+      <li ng-if="!currentUser">
+        <span ng-click="setPathTo('/login')">login</span >
+      </li>
+      <li ng-if="currentUser">
+        <span ng-click="logout()">Logout</span>
+      </li>
+    </ul>
+  </nav>
+  <div class="clear"></div>
+</aside>

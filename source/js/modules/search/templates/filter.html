@@ -1,0 +1,173 @@
+<section class="filter sans-serif" ng-class="{open: isFilterShow}">
+  <form action="/">
+    <div class="filter-option">
+      <div class="low-title">
+        Gender
+        <div class="gender-checkbox">
+          <input class="icheck" type="checkbox" name="male" id="male">
+          </input>
+          <label for="male">
+            Male
+          </label>
+        </div>
+        <div class="gender-checkbox">
+          <input class="icheck" type="checkbox" name="female" id="female">
+          </input>
+          <label for="female">
+            Female
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="filter-option age">
+      <div class="low-title">
+      Age
+      </div>
+      <div class="age-inputs">
+        <input class="text-input" type="text" value="18">
+          <div>
+            to
+          </div>
+          <input class="text-input" type="text" value="29">
+          </input>
+        </input>
+      </div>
+    </div>
+    <div class="filter-option">
+      <div class="low-title">
+      Location
+      </div>
+      <div class="dropdown-wrapper">
+        <button id="dropdownMenu1" class="btn dropdown-toggle" data-toggle="dropdown" type="button">
+          <ins>
+          </ins>
+          London, UK
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" role="menu">
+          <li role="presentation">
+            <a href="#" role="menuitem" tabindex="-1">
+              City1
+            </a>
+          </li>
+          <li role="presentation">
+            <a href="#" role="menuitem" tabindex="-1">
+              City2
+            </a>
+          </li>
+          <li role="presentation">
+            <a href="#" role="menuitem" tabindex="-1">
+              City3
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="filter-option">
+      <div class="low-title">
+      Language
+      </div>
+      <div class="dropdown-wrapper">
+        <button id="dropdownMenu2" class="btn dropdown-toggle" data-toggle="dropdown" type="button">
+          <ins>
+          </ins>
+          English
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2" role="menu">
+          <li role="presentation">
+            <a href="#" role="menuitem" tabindex="-1">
+              Language1
+            </a>
+          </li>
+          <li role="presentation">
+            <a href="#" role="menuitem" tabindex="-1">
+              Language2
+            </a>
+          </li>
+          <li role="presentation">
+            <a href="#" role="menuitem" tabindex="-1">
+              Language3
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="filter-option">
+      <div class="low-title">
+      Ethnicity
+      </div>
+      <div class="dropdown-wrapper">
+        <button id="dropdownMenu3" class="btn dropdown-toggle" data-toggle="dropdown" type="button">
+          <ins>
+          </ins>
+          English
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu3" role="menu">
+          <li role="presentation">
+            <a href="#" role="menuitem" tabindex="-1">
+              Ethnicity1
+            </a>
+          </li>
+          <li role="presentation">
+            <a href="#" role="menuitem" tabindex="-1">
+              Ethnicity2
+            </a>
+          </li>
+          <li role="presentation">
+            <a href="#" role="menuitem" tabindex="-1">
+              Ethnicity3
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="filter-option">
+      <div class="low-title">
+      Religion
+      </div>
+      <div class="dropdown-wrapper">
+        <button id="dropdownMenu4" class="btn dropdown-toggle" data-toggle="dropdown" type="button">
+          <ins>
+          </ins>
+          Catholic
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu4" role="menu">
+          <li role="presentation">
+            <a href="#" role="menuitem" tabindex="-1">
+              Religion1
+            </a>
+          </li>
+          <li role="presentation">
+            <a href="#" role="menuitem" tabindex="-1">
+              Religion2
+            </a>
+          </li>
+          <li role="presentation">
+            <a href="#" role="menuitem" tabindex="-1">
+              Religion3
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="filter-option">
+      <div class="low-title">
+      Interests
+      </div>
+      <div class="interests">
+        <label for="interests">
+          Example: Movies, Nightlife...
+        </label>
+        <input id="interests" class="text-input" name="interests" type="text">
+        </input>
+      </div>
+    </div>
+    <div class="filter-buttons">
+      <button type="submit">
+        Search
+      </button>
+      <button type="reset">
+        Cancel
+      </button>
+    </div>
+  </form>
+</section>

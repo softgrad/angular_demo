@@ -1,0 +1,11 @@
+<div class="profile-details">
+  <ul class="list-unstyled">
+    <li ng-repeat="item in tabs" ng-class="{ current: isActiveTab(item.id) }">
+      <span ng-click="setActive(item.id)">{{item.title}}</span>
+    </li>
+  </ul>
+  <div class="profile-details-content-wrapper">
+    <div class="profile-details-content" style="left: {{ -activeTab * tabWidth}}px" ng-transclude>
+    </div>
+  </div>
+</div>

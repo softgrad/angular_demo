@@ -1,0 +1,11 @@
+<div ng-controller="SearchController">
+  <div class="search">
+    <span class="sans-serif filter-link" ng-click="isFilterShow = !isFilterShow">Filter</span>
+    <div class="search-input">
+      <button class="clear-field" type="button" ng-click="clear()"></button>
+      <input placeholder="Search" type="text" name="search" id="search" ng-model="searchText"/>
+      <ins class="icon search-icon"></ins>
+    </div>
+  </div>
+  <filter></filter>
+</div>

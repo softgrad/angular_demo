@@ -1,0 +1,37 @@
+<div class="content feed" ng-init="init()" ng-class="{ open: isOpen }">
+  <div ng-if="resutl">
+    <div class="top-message">
+      <div class="x">
+        found matches:
+        <strong>
+          {{count}}
+        </strong>
+      </div>
+    </div>
+  </div>
+
+  <div class="user-plate" ng-repeat="item in feeds | filter:searchText">
+    <div class="user-plate-shell">
+      <div class="user-photo">
+        <img ng-src="images/{{item.photo}}" width="120" width="120" alt: "" />
+      </div>
+      <div class="name">
+        {{item.name}}
+      </div>
+      <div class="info">
+        {{item.age}} / {{item.info}}
+      </div>
+      <div class="from">
+        {{item.sity}}
+      </div>
+      <div class="interests">
+        <div class="interests-title">
+          Top interests
+          <ul class="list-unstyled">
+            <li ng-repeat="text in item.interests"> {{text}} </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
