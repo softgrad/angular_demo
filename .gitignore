@@ -1,9 +1,0 @@
-logs/*
-!.gitkeep
-node_modules/
-vendor/
-build/
-tmp
-.DS_Store
-.idea
-.sass-cache
